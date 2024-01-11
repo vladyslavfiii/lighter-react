@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,700;1,600&display=swap');
+
+html{
+  width: 100%;
+}
 body {
+  width: 100%;
+  font-size: 16px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +18,192 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: .5s;
+}
+.day-header-yellow{
+  background-image: url('./img/day-background-yellow-min.png');
+  transition: .5s;
+}
+.night-header-yellow{
+  background-image: url('./img/night-background-yellow-min.png');
+  transition: .5s;
+}
+.day-header-red{
+  background-image: url('./img/day-background-red-min.png');
+  transition: .5s;
+}
+.night-header-red{
+  background-image: url('./img/night-background-red-min.png');
+  transition: .5s;
+}
+.day-header-green{
+  background-image: url('./img/day-background-green-min.png');
+  transition: .5s;
+}
+.night-header-green{
+  background-image: url('./img/night-background-green-min.png');
+  transition: .5s;
+}
+.day-header-blue{
+  background-image: url('./img/day-background-blue-min.png');
+  transition: .5s;
+}
+.night-header-blue{
+  background-image: url('./img/night-background-blue-min.png');
+  transition: .5s;
+}
+
+.container{
+  width: 1170px;
+  height: 100%;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.functional{
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.offer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-family: Chakra Petch, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.offer-button{
+  padding: 10px 25px;
+
+  color: #fff;
+
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  transition: .3s;
+}
+.offer-button:hover{
+  padding: 10px 50px;
+  transition: .3s;
+}
+.offer-button a{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-remote{
+  width: 350px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  color: #000;
+
+  box-shadow: 5px 0px grey;
+}
+.remote{
+  width: 100%;
+  border: 0px;
+}
+.remote-button{
+  color: #000 !important;
+  text-transform: uppercase !important;
+
+  background: none !important;
+  border: 0px solid #000 !important;
+  border-radius: 15px !important;
+
+  margin: 10px 0px !important;
+  padding: 5px 50px !important;
+  
+  box-shadow: 2.5px 2.5px grey !important;
+
+  font-family: Chakra Petch, sans-serif !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-style: italic !important;
+}
+.remote-collapse{
+  margin: 15px 0;
+  gap: 10px 10px;
+}
+.remote-collapse-button{
+  width: 100px;
+  height: 25px;
+  border: 0px solid #000;
+  border-radius: 15px;
+
+  color: #fff;
+
+  box-shadow: 2.5px 2.5px grey
+}
+
+.main-block{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block{
+  padding: 25px;
+  border-radius: 25px;
+  border: 5px solid #2b2b2b;
+}
+
+.mode-menu-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+  width: 75px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+
+  background: none;
+  transition: .3s;
+}
+.mode-menu-button-day{
+  justify-content: start;
+}
+.mode-menu-button-night{
+  justify-content: end;
+}
+.circle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+}
+/* .phone{
+  width: 250px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px;
+  background-color: #000;
+}
+.phone-screen{
+  width: 225px;
+  height: 475px;
+  border-radius: 25px;
+  background: #fff;
+} */
