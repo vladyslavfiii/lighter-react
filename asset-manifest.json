@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/lighter-react/static/css/main.105d089c.css",
+    "main.js": "/lighter-react/static/js/main.c9c7a343.js",
+    "static/media/night-background-red-min.png": "/lighter-react/static/media/night-background-red-min.bb467bc133835fe3018c.png",
+    "static/media/night-background-blue-min.png": "/lighter-react/static/media/night-background-blue-min.99152ee0789f6bbee89a.png",
+    "static/media/night-background-green-min.png": "/lighter-react/static/media/night-background-green-min.c058d5b77834c3b5c50f.png",
+    "static/media/night-background-yellow-min.png": "/lighter-react/static/media/night-background-yellow-min.f329e8dfff950157de79.png",
+    "static/media/day-background-green-min.png": "/lighter-react/static/media/day-background-green-min.c382e604e4ed41f22cb9.png",
+    "static/media/day-background-yellow-min.png": "/lighter-react/static/media/day-background-yellow-min.5cfedaca21035415bd6c.png",
+    "static/media/day-background-blue-min.png": "/lighter-react/static/media/day-background-blue-min.fbec0bf71707d3fb1470.png",
+    "static/media/day-background-red-min.png": "/lighter-react/static/media/day-background-red-min.465eb27f114a41f52e34.png",
+    "index.html": "/lighter-react/index.html",
+    "main.105d089c.css.map": "/lighter-react/static/css/main.105d089c.css.map",
+    "main.c9c7a343.js.map": "/lighter-react/static/js/main.c9c7a343.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.105d089c.css",
+    "static/js/main.c9c7a343.js"
+  ]
+}
